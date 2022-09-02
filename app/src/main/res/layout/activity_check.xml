@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckActivity"
+    android:background="@color/bg_color2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"/>
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:width="300dp"
+                android:text="Câu hỏi bảo mật?"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="60px"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textQuest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:width="300dp"
+            android:text="Hai con vịt có bao nhiêu cái cánh?"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="55px" />
+        <EditText
+            android:id="@+id/editAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:background="@drawable/border"
+            android:textSize="40dp"
+            android:width="200dp"
+            android:layout_margin="10dp"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:text=""
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/buttonquest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Xác nhận" />
+    </LinearLayout>
+</LinearLayout>
